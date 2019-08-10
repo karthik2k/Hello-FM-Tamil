@@ -8,12 +8,12 @@ const STREAMS = [
     "token": "hello fm",
     "url": 'http://51.15.200.126:8002/5',
     "metadata" : {
-      "title": "Hello FM",
-      "subtitle": "Hello FM Tamil",
+      "title": "Hello Tamil",
+      "subtitle": "Hello Tamil",
       "art": {
         "sources": [
           {
-            "contentDescription": "Hello FM Tamil",
+            "contentDescription": "Hello Tamil",
             "url": " https://cf-templates-l3aeazorlgtt-us-west-2.s3-us-west-2.amazonaws.com/hello+fm.png",
             "widthPixels": 512,
             "heightPixels": 512

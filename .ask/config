@@ -17,7 +17,7 @@
       "in_skill_products": [],
       "resources": {
         "manifest": {
-          "eTag": "8704fa6f9765bb07ad86d45482e6a5b5"
+          "eTag": "ede6c35920a1146af13d36b8c6e4242e"
         },
         "interactionModel": {
           "en-US": {
@@ -34,7 +34,7 @@
             "codeUri": "lambda/custom",
             "functionName": "ask-custom-hello_fm_tamil-default",
             "handler": "index.handler",
-            "revisionId": "d3e17406-86ae-4ff1-91a0-445be91fb13f",
+            "revisionId": "3a80438a-7f22-459b-9e55-a3e4cb165be0",
             "runtime": "nodejs8.10"
           }
         ]

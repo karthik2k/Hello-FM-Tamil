@@ -3,18 +3,18 @@
     "publishingInformation": {
       "locales": {
         "en-US": {
-          "summary": "A starter template for an Alexa audio streaming skill.",
+          "summary": "A streaming skill for hello fm.",
           "examplePhrases": [
-            "Alexa, open Hello FM Tamil",
-            "Alexa, play Hello FM Tamil",
-            "Alexa, ask Hello FM Tamil"
+            "Alexa, open Hello Tamil",
+            "Alexa, play Hello Tamil",
+            "Alexa, ask Hello Tamil"
           ],
           "keywords": [
             "audio streaming",
             "music",
             "live music"
           ],
-          "name": "hello fm tamil",
+          "name": "hello tamil",
           "description": "A starter template for Hello FM Tamil.",
           "smallIconUri": "https://s3.amazonaws.com/cdn.dabblelab.com/img/audiostream-starter-108x108.png",
           "largeIconUri": "https://s3.amazonaws.com/cdn.dabblelab.com/img/audiostream-starter-512x512.png"
@@ -44,8 +44,8 @@
       "allowsPurchases": false,
       "locales": {
         "en-US": {
-          "termsOfUseUrl": "http://dabblelab.com/terms",
-          "privacyPolicyUrl": "http://dabblelab.com/privacy"
+          "termsOfUseUrl": "",
+          "privacyPolicyUrl": ""
         }
       },
       "isExportCompliant": true,
