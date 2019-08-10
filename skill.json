@@ -5,9 +5,9 @@
         "en-US": {
           "summary": "A starter template for an Alexa audio streaming skill.",
           "examplePhrases": [
-            "Alexa, open Audio Steam Starter",
-            "Alexa, play Audio Steam Starter",
-            "Alexa, ask Audio Steam Starter to play"
+            "Alexa, open Hello FM Tamil",
+            "Alexa, play Hello FM Tamil",
+            "Alexa, ask Hello FM Tamil"
           ],
           "keywords": [
             "audio streaming",
@@ -15,7 +15,7 @@
             "live music"
           ],
           "name": "hello fm tamil",
-          "description": "A starter template for an Alexa audio streaming skill.",
+          "description": "A starter template for Hello FM Tamil.",
           "smallIconUri": "https://s3.amazonaws.com/cdn.dabblelab.com/img/audiostream-starter-108x108.png",
           "largeIconUri": "https://s3.amazonaws.com/cdn.dabblelab.com/img/audiostream-starter-512x512.png"
         }
