@@ -1,14 +1,14 @@
 {
   "deploy_settings": {
     "default": {
-      "skill_id": "",
+      "skill_id": "amzn1.ask.skill.863b0fc0-eb8a-4671-87a6-318b8aff204c",
       "was_cloned": false,
       "merge": {
         "manifest": {
           "apis": {
             "custom": {
               "endpoint": {
-                "uri": "ask-custom-hello_fm_tamil-default"
+                "uri": "arn:aws:lambda:us-east-1:338835517769:function:ask-custom-hello_fm_tamil-default"
               }
             }
           }
@@ -17,14 +17,27 @@
       "in_skill_products": [],
       "resources": {
         "manifest": {
-          "eTag": ""
+          "eTag": "8704fa6f9765bb07ad86d45482e6a5b5"
         },
         "interactionModel": {
           "en-US": {
-            "eTag": ""
+            "eTag": "9874f4a97cf20d8ed735ef1c1fecb229"
           }
         },
-        "lambda": []
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:us-east-1:338835517769:function:ask-custom-hello_fm_tamil-default",
+            "awsRegion": "us-east-1",
+            "codeUri": "lambda/custom",
+            "functionName": "ask-custom-hello_fm_tamil-default",
+            "handler": "index.handler",
+            "revisionId": "d3e17406-86ae-4ff1-91a0-445be91fb13f",
+            "runtime": "nodejs8.10"
+          }
+        ]
       }
     }
   }

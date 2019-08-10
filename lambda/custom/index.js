@@ -5,16 +5,16 @@ const Alexa = require('ask-sdk-core');
 
 const STREAMS = [
   {
-    "token": "stream-12",
-    "url": 'https://streaming.radionomy.com/RadioXUS?lang=en-US&appName=iTunes.m3u',
+    "token": "hello fm",
+    "url": 'http://51.15.200.126:8002/5',
     "metadata" : {
-      "title": "Stream One",
-      "subtitle": "A subtitle for stream one",
+      "title": "Hello FM",
+      "subtitle": "Hello FM Tamil",
       "art": {
         "sources": [
           {
-            "contentDescription": "example image",
-            "url": "https://s3.amazonaws.com/cdn.dabblelab.com/img/audiostream-starter-512x512.png",
+            "contentDescription": "Hello FM Tamil",
+            "url": " https://cf-templates-l3aeazorlgtt-us-west-2.s3-us-west-2.amazonaws.com/hello+fm.png",
             "widthPixels": 512,
             "heightPixels": 512
           }
@@ -24,7 +24,7 @@ const STREAMS = [
         "sources": [
           {
             "contentDescription": "example image",
-            "url": "https://s3.amazonaws.com/cdn.dabblelab.com/img/wayfarer-on-beach-1200x800.png",
+            "url": " https://cf-templates-l3aeazorlgtt-us-west-2.s3-us-west-2.amazonaws.com/hello+fm.png",
             "widthPixels": 1200,
             "heightPixels": 800
           }
@@ -115,7 +115,7 @@ const CancelAndStopIntentHandler = {
 
 const PlaybackStoppedIntentHandler = {
   canHandle(handlerInput) {
-    return handlerInput.requestEnvelope.request.type === 'PlaybackController.PauseCommandIssued' || 
+    return handlerInput.requestEnvelope.request.type === 'PlaybackController.PauseCommandIssued' ||
             handlerInput.requestEnvelope.request.type === 'AudioPlayer.PlaybackStopped';
   },
   handle(handlerInput) {
